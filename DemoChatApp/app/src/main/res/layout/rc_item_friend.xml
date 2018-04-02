@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_margin="@dimen/margin_2dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/icon_avatar"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:padding="@dimen/padding_6dp"
+        android:src="@color/colorAccent"
+        app:civ_border_color="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/ll_list"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_toRightOf="@+id/icon_avatar"
+        android:layout_weight="1.6"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toEndOf="@+id/tv_time"
+                android:layout_toRightOf="@+id/tv_time"
+                android:gravity="center_vertical"
+                android:text="@string/first_name" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_4dp"
+                android:text="00:00 AM"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/message" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_1dp"
+        android:layout_below="@+id/ll_list"
+        android:layout_toRightOf="@+id/icon_avatar"
+        android:background="@color/colorAccent" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">DemoChatApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!--=============================================================================
+      SnackBar Messages
+      =============================================================================-->
+    <string name="empty_first_name">Please Enter First Name</string>
+    <string name="empty_last_name">Please Enter Last Name</string>
+    <string name="empty_email">Please Enter Email Id</string>
+    <string name="empty_phone">Please Enter Phone Number</string>
+    <string name="valid_phone">Please Enter Valid Phone Number</string>
+    <string name="empty_password">Please Enter Password</string>
+
+    <!--=============================================================================
+   Register Activity
+   =============================================================================-->
+    <string name="create_profile">Create Profile</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="already_registered_signin">Already Registered? Sign In</string>
+    <string name="chat_security">Chat Security</string>
+
+    <!--=============================================================================
+   Login Activity
+   =============================================================================-->
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!--=============================================================================
+    Forgot Activity
+    =============================================================================-->
+    <string name="success_send_email">Please check your email or number to check new password.</string>
+    <string name="cancel">Cancel</string>
+
+    <!--=============================================================================
+    Dashboard Activity
+    =============================================================================-->
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="categories">Categories</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!--=============================================================================
+   Login Activity
+   =============================================================================-->
+    <string name="some_network_issue_please_try">Some network issue, Please try after some time</string>
+
+    <!--=============================================================================
+   Chat Activity
+   =============================================================================-->
+
+    <string name="message">message</string>
+    <string name="select_picture_title">Get Photo From Gallery</string>
+
+
+</resources>
